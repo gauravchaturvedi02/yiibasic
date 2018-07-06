@@ -39,11 +39,11 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'Send & Retrieve Data', 'url' => ['/site/rest']],
+            ['label' => 'Send & Retrieve Data', 'url' => ['/site/test']],
             ['label' => 'Add Category', 'url' =>['/products/addcategory']],
             ['label' => 'Add Product', 'url' =>['/products/addproduct']],
             ['label' => 'Add Product Details', 'url' =>['/products/prod_form']],
-            ['label' => 'Curl', 'url' => ['/user/test']],
+            ['label' => 'Curl', 'url' => ['/user/rest']],
             
           
             Yii::$app->user->isGuest ? (
